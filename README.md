@@ -22,3 +22,17 @@ swww
 and some other applications 
 
 like hyprpol kit agent etc
+
+
+name the wallpapers you choose wall1,wall2 .........
+or change the name.
+
+
+
+important !!! 
+
+the wallpapers are NOT made by me, 
+
+these wallpapers belong to their respective owner.
+USED FOR DEMONSTRATION PURPOSES ONLY.....
+
