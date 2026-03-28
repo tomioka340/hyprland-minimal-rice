@@ -1,0 +1,199 @@
+
+
+@import "colors.css";
+
+* {
+    border: none;
+    border-radius: 10px;
+    font-family: SF Pro Display, 
+                 Helvetica, 
+                 JetBrainsMono Nerd Font, 
+                 Arial, 
+                 sans-serif, 
+                 ttf-jetbrains-mono-nerd, 
+                 otf-font-awesome,
+                 "Font Awesome 6 Free",
+                 Hack Nerd Font;
+
+    font-size: 15px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: white;
+}
+
+tooltip {
+  background: @background;
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: @onsurface;
+}
+
+
+
+
+#workspaces {
+background: @background;
+margin: 10px;
+border-radius: 20px;
+
+
+
+}
+
+#workspaces button {
+
+    color: @primary;
+    margin: 5px;
+    padding: 0 15px;
+    border-radius: 80px;
+    transition: all 600ms ease-in-out; 
+    background: transparent;
+   
+}
+
+#workspaces button:hover {
+
+    background: @tertiary;
+    color: black;
+    font-weight: 100;
+  
+     
+}
+
+#workspaces button.active {
+
+    background: @tertiary;
+    color: @background;
+    margin: 5px;
+    border-radius: 80px;
+    font-weight: 100;
+    
+}
+
+
+
+#mode, #clock, #battery {
+    padding: 0 15px;
+}
+
+#mode {
+    background: #64727D;
+    border-bottom: 3px solid white;
+}
+
+#clock,
+#memory,
+#cpu,
+#backlight,
+#temperature,
+#battery,
+#pulseaudio,
+#custom-notification,
+#network {
+
+    background-color: rgba(0,0,0,0.7);
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: 900;
+    padding:10px;
+    border: 1px solid;
+    border-color: @onsurface;
+
+}
+
+
+
+
+#clock {
+
+    color: @primary;
+
+}
+
+
+#custom-notification {
+
+color: @tertiary;
+
+
+
+}
+
+
+
+
+#memory {
+
+    color: @primary;
+
+}
+
+
+
+#cpu {
+
+    color: @primary;
+
+}
+
+
+
+#temperature
+
+{
+
+    color: @tertiary;
+
+}
+
+
+ 
+
+#backlight {
+
+    color: @tertiary;
+
+}
+
+
+
+
+
+#network {
+
+    color: @secondary;
+
+}
+
+
+
+#pulseaudio {
+
+    color: @inverse_secondary;
+
+}
+
+
+
+
+#battery {
+
+    color: @primary;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
